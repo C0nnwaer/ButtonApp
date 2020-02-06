@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Button App</string>
-    <string name="text_count">You\'ve clicked this button 0 times!</string>
+    <string name="text_count">You\'ve clicked this button %1$d times!</string>
     <string name="button_text">CLICK ME</string>
 </resources>
