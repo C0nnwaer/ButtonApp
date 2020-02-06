@@ -22,10 +22,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        String text = getString(R.string.text_count, click_count);
-//        display_text.setText(text);
+        String text = getString(R.string.text_count, click_count);
 
         display_text = findViewById(R.id.text);
+        display_text.setText(text);
         submit_button = findViewById(R.id.test_button);
         submit_button.setOnClickListener(new View.OnClickListener(){
             @Override
